@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <title>موقعي الأول</title>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>مرحبا بك في موقعي</h1>
-  <p>هذا موقع بسيط على GitHub Pages.</p>
+
+<div class="login-container">
+  <img src="assets/logo.jpg" alt="Logo" class="logo">
+  <h2>تسجيل الدخول</h2>
+  <form id="loginForm">
+    <input type="text" placeholder="Username" id="username">
+    <input type="password" placeholder="Password" id="password">
+    <button type="submit">دخول</button>
+    <button type="button" id="registerBtn">إنشاء حساب</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
